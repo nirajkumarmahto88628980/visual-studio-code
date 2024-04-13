@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+
+body {
+  background-image: url(Assets/phone\ reaid\ 2.jpg);
+  background-size: 100%;
+}
+
+.wrapper {
+  height: 110px;
+  width: 100%;
+  background-image: linear-gradient(to left, rgb(32, 29, 29), rgb(153, 164, 57), rgb(27, 21, 21));
+}
+
+.menu {
+  background-color: peru;
+  height: 110px;
+  width: 250px;
+}
+
+.wrapper .kal {
+  margin-top: 550px;
+  margin-left: 50px;
+}
+
+.wrapper .jew {
+  margin-left: 50px;
+  letter-spacing: 8px;
+}

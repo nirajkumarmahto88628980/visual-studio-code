@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: darkcyan;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    background-image: url(Assets/gym\ 1.jpg);
+    background-size: 100%;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    background-image: linear-gradient(to right, black, rgb(128, 58, 58),black);
+    /* background-color: green; */
+}
+
+.navbar .logo{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 50px;
+    color: green;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-inline: 30px;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    margin-inline: 2px solid aqua;
+}
+ul .btn {
+    background-image: linear-gradient(to right, rgb(14, 14, 41),rgb(27, 42, 42));
+    border: 2px solid rgb(7, 30, 43);
+    height: 40px;
+    font-weight: bold;
+    color: rgb(7, 160, 53);
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.text p {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.text .btn1{
+    margin-top: 40px;
+}
+
+.btn1 {
+    height: 30px;
+    width: 90px;
+    background-image: linear-gradient(to right, rgb(14, 14, 41),rgb(27, 42, 42));
+    border: none;
+}
